@@ -4,7 +4,9 @@ export const api = {
 
 export const routes = {
   companies: {
-    index: '/companies'
+    index: '/companies',
+    new: '/companies/new',
+    generate: '/companies/generate'
   }
 }
 

@@ -1,7 +1,7 @@
 //@flow
 import { connect } from 'react-redux'
+
 import Layout from '~/app/components/pages/layout/Layout'
-// import { createAction } from 'redux-actions'
 
 export const mapStateToProps = (_state: Object): Object => ({
 

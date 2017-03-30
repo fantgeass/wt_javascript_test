@@ -62,7 +62,7 @@ export function apiGet(path: string, payload: Object = {}) {
   return request(path, payload, 'GET')
 }
 
-export function apiPost(path: string, payload: Object) {
+export function apiPost(path: string, payload: Object = {}) {
   return request(path, payload, 'POST')
 }
 
